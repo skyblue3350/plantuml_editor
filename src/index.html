@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+
+    <meta property="og:title" content="<%= htmlWebpackPlugin.options.title %>">
+    <meta property="og:site_name" content="<%= htmlWebpackPlugin.options.title %>">
+    <meta name="description" content="<%= htmlWebpackPlugin.options.title %>">
+    <meta name="twitter:description" content="<%= htmlWebpackPlugin.options.title %>">
+    <meta property="og:locale" content="ja_JP">
+
+    <style>
+        html, body, #app {
+          height: 100%;
+        }
+    </style>
+  </head>
+
+  <body>
+    <div id="app"></div>
+  </body>
+</html>

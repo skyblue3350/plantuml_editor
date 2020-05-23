@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  plantuml:
+    image: plantuml/plantuml-server:tomcat-v1.2020.10
+    ports:
+      - "8080:8080"
